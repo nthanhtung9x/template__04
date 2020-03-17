@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #009688;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.grid {
+    display:block;
+    width: 100%;
+}
+
+.wide {
+    width: 1370px;
+    max-width: 90%;
+    margin:0 auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,148 @@
+.wrapper {
+    background: #ccc;
+}
+
+
+/* left */
+
+.left__wrap,.right__wrap {
+    box-shadow: 0 0 4px 2px grey;
+    margin-top: 24px;
+    background: #fff;
+}
+
+.left__img {
+    background: url('../images/avatar.jpg') no-repeat center;
+    background-size: cover;
+    height: 30rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.left__heading {
+    font-size: 3rem;
+    padding: 12px;
+}
+
+.left__content {
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+.content__icon {
+    padding-right: 4px;
+    color: var(--primary-color);
+}
+
+.left__skill__heading {
+    padding: 12px;
+    font-size: 2rem;
+}
+
+.skill__list {
+    padding: 12px;
+}
+
+.skill__item {
+
+}
+
+.skill__name {
+    font-size: 1.8rem;
+}
+
+.skill__percent {
+    position: relative;
+    height: 2rem;
+    background: #eee;
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:12px 0;
+}
+
+.percent {
+    position: absolute;
+    background: var(--primary-color);
+    border-radius: 12px;
+    left: 0;
+    top:0;
+    bottom: 0;
+}
+
+
+
+.skill__percent__text {
+    font-size: 1.6rem;
+    z-index: 1;
+}
+
+/* Right */
+
+.right__wrap {
+    margin-top: 24px;
+}
+
+.right__heading {
+    padding: 24px;
+    font-size: 3rem;
+}
+
+.work__icon {
+    color: var(--primary-color);
+    padding-right: 12px;
+}
+
+.work__item {
+    padding: 16px 0;
+    border-bottom: 1px solid grey;
+}
+
+.work__item:last-child {
+    border:0;
+}
+
+.work__heading {
+    font-size: 2rem;
+}
+
+.work__list {
+    padding: 24px;
+}
+
+.work__time {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    padding: 12px 0;
+}
+
+.time__current {
+    padding: 4px 12px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.work__text {
+    font-size: 1.6rem;
+}
+
+/* Footer */
+
+.footer {
+    margin-top:24px;
+    padding: 36px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.footer__icon:hover {
+    opacity: 0.7;
+}
+
+.footer p span {
+    text-decoration: underline;
+}
